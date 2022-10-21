@@ -22,9 +22,6 @@ p{
     font-family: 'Work Sans', sans-serif;
 }
 
-h4{
-    font-family: 'Work Sans', sans-serif;
-}
 
 h2{
     font-weight: 500;
@@ -48,6 +45,22 @@ header{
     
 }
 
+.home{
+    display: none;
+}
+
+.home ul{
+    display: flex;
+    list-style: none; 
+    font-family:'Work Sans', sans-serif ;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home li{
+    margin: 5px;
+}
+
 .cont{
     display: flex;
 }
@@ -58,9 +71,13 @@ header{
     bottom: 50px;
     margin-top: 20px;
     margin-left: 15px;
+    position: absolute;
+    top: 5%;
 }
 
 .cont-usd{
+    left: 55%;
+    position: absolute;
     display: flex;
     margin-top: 30px;
     padding: 10px;
@@ -72,6 +89,7 @@ header{
 }
 
 .menu{
+    display: block;
     border: 1px solid ;
     margin-left: 30px;
     height: 25px;
@@ -386,7 +404,7 @@ header{
 }
 
 .text-lorem{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     justify-content: center;
     font-family: 'Playfair Display', serif;
     color:  rgb(162, 155, 150)   ;
@@ -420,3 +438,68 @@ header{
     text-decoration: underline; 
 }
 
+.read-final{
+    padding-bottom: 40px;
+}
+
+.cont-sponsors{
+    display: flex;
+    margin: auto;
+}
+
+.none{
+    display: none;
+}
+
+.sponsor{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*                              FOOTER                                   */
+
+.cont-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#f8f8f8 ;
+    margin: auto;
+    width: 95%;
+}
+
+.cont-info div{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.cont-info h2{
+    font-size: 2rem;
+}
+
+.cont-info h3{
+    margin-bottom: 5px;
+    font-family:'Lora', serif ;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.empresas{
+    background-color:rgb(235, 235, 235) ;
+}
+
+.empresas h3{
+    text-align: center;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.empresas span{
+    font-weight: 600;
+}
+
+.footer-img{
+    padding-bottom: 20px;
+    margin-left:  10px;
+    min-width: 3.5rem;
+}
