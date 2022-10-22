@@ -58,7 +58,7 @@ header{
 }
 
 .home li{
-    margin: 5px;
+    margin: 20px;
 }
 
 .cont{
@@ -175,7 +175,7 @@ header{
 }
 
 .sale{
-    font-size: 2.3rem;
+    font-size: clamp(2.3rem, 1vw, 3rem);
     color: #899f43;
     justify-content: center;
     padding-top: 40px ;
@@ -458,6 +458,9 @@ header{
 
 /*                              FOOTER                                   */
 
+/*
+   El Footer fue modificado por problemas de ux y ui, fue alterado con las propiedasde de  "display: grid;" "grid-template-columns: 50% 50%;" diviendo el footer en dos columnas que cubre el 50% y 50% de la pantalla.
+*/
 .cont-info{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -502,4 +505,80 @@ header{
     padding-bottom: 20px;
     margin-left:  10px;
     min-width: 3.5rem;
+}
+
+/*                             MEDIA QUERY                              */
+
+@media (min-width: 480px){
+    header{
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        width: 100%;
+    }
+
+    .cont-usd p{
+        margin-top:4px;
+    }
+
+    .select{
+        margin-bottom: 32px;
+    }
+    .home{
+        position: relative;
+        display: flex;
+        top: 30px;
+        left: 40px;
+        font-size: 1.2rem;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        padding-top: 10px;
+        padding-left: 250px;
+    }
+
+    .cont-usd{
+        top: 10px;
+        position: relative;
+        left: 38rem;
+    }
+
+    /*                                                     SLIDER                                                  */ 
+    .background-titles{
+       min-width: 92%;
+       min-height: 40rem;
+    }
+    .titulo{
+        position: relative;
+        top: 50px;
+    }
+    .shop{
+        position: relative;
+        top: 50px;
+    }
+
+    .cont-banner{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 80%;
+    }
+    .img2{
+        position: relative;
+        height: 180px;
+        bottom: 15px;
+    }
+    .img1{
+        height: 180px;
+    }
+    .sale{
+       padding-top: 60px;
+       padding-left: 20px;
+    }
+
+    /*                                                   PRODUCTS                                                   */
+    .section-products {
+
+    }
 }
