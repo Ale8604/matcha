@@ -374,7 +374,7 @@ header{
 
 /*                               LATEST NEWS                             */
 
-.cont-latest{
+.cont-latest1{
     background-image: url('../img/bg-1.jpg');
     background-size: cover;
     background-position: top;
@@ -542,7 +542,7 @@ header{
     .cont-usd{
         top: 10px;
         position: relative;
-        left: 38rem;
+        left: 49rem;
     }
 
     /*                                                     SLIDER                                                  */ 
@@ -577,8 +577,71 @@ header{
        padding-left: 20px;
     }
 
-    /*                                                   PRODUCTS                                                   */
-    .section-products {
+    /*                                                            PRODUCTS                                                   */
+    .cont-latest{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+    .cont-latest img{
+        width: 90%;
+        
+    }
 
+    .cont-img2{
+        margin: auto;
+    }
+
+    .cont-text-gregory{
+        width: 50%;
+    }
+
+    /*                                                              LASTEST MEWS                                              */
+    .cont-news{
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+    }
+    .cont-news img{
+        width:110% ;
+    }
+    .news{
+        width: 70%;
+    }
+    .list3{
+        padding-top: 37px;
+    }
+
+    .none{
+        display: block;
+    } 
+    /*                                                                  FOOTER                                                     */
+    .cont-info{
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        justify-content: left ;
+    }
+    
+    .cont-info h3{
+        margin-bottom: 20px;
+    }
+
+    .empresas{
+        width: 95%;
+        margin: auto;
+    }
+
+    .empresas h3{
+        position: relative;
+        top: 25px;
+        margin-left: 10rem;
+        text-align: left;
+    }
+
+    .footer-img{
+        position: relative;
+        left: 65%;
     }
 }
