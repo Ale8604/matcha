@@ -314,6 +314,7 @@ header{
 
 .cont-img2{
     margin: auto;
+    padding-left: 17px;
 }
 
 .precio{
@@ -385,8 +386,12 @@ header{
     flex-direction: column;
 }
 
+
 .cont-latest div, .list{
     width: 95%;
+}
+.cont-latest img{
+    padding-right: 16px;
 }
 
 .news{
